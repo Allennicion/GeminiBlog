@@ -75,7 +75,7 @@
         });
     });
 
-    // 列删除
+    // 列删除 test 提交
     function batchdel(t) {
         $.ajax({
             type: "post",
