@@ -98,11 +98,11 @@
         })
     }
 
-    // 增加 冲突1
+    // 增加
     $("#add").click(function () {
         layer.open({
             type: 2
-            ,title: '添加分类冲突2'
+            ,title: '添加分类'
             ,content: '/backstage/dict/categoryForm'
             ,area: ['300px', '200px']
             ,btn: ['确定', '取消']
