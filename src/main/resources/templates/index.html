@@ -95,6 +95,19 @@
         </div>
 
         <ul class="layui-nav layui-nav-tree" lay-shrink="all" id="LAY-system-side-menu" lay-filter="layadmin-system-side-menu">
+
+          <li data-name="dict" class="layui-nav-item">
+            <a href="javascript:;" lay-tips="字典管理" lay-direction="2">
+              <i class="layui-icon layui-icon-home"></i>
+              <cite>字典管理</cite>
+            </a>
+            <dl class="layui-nav-child">
+              <dd data-name="console">
+                <a lay-href="backstage/dict/category">分类管理</a>
+              </dd>
+            </dl>
+          </li>
+
           <li data-name="home" class="layui-nav-item layui-nav-itemed">
             <a href="javascript:;" lay-tips="主页" lay-direction="2">
               <i class="layui-icon layui-icon-home"></i>
@@ -112,6 +125,7 @@
               </dd>
             </dl>
           </li>
+
           <li data-name="component" class="layui-nav-item">
             <a href="javascript:;" lay-tips="组件" lay-direction="2">
               <i class="layui-icon layui-icon-component"></i>

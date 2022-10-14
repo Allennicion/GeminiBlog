@@ -6,7 +6,7 @@ spring:
   profiles:
     active: app
   application:
-    name: NoteBlog
+    name: GeminiBlog
   resources:
     static-locations: classpath:/static/
   jackson:
@@ -30,12 +30,13 @@ logging:
 mybatis-plus:
   global-config:
     db-config:
-      table-prefix: nb_
+      table-prefix: gemini_
       id-type: auto
   mapper-locations: classpath:/mappers/*.xml
   type-enums-package: com.gemini.geminiblog.constant
   configuration:
     default-enum-type-handler: com.baomidou.mybatisplus.extension.handlers.MybatisEnumTypeHandler
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 server:
   tomcat:
     uri-encoding: UTF-8

@@ -1,5 +1,6 @@
 package com.gemini.geminiblog.controllers;
 
+import com.gemini.geminiblog.model.json.LayuiTable;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
