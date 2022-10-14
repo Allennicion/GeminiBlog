@@ -114,7 +114,7 @@
         });
     });
 
-    // 批量删除
+    // 批量删除 test提交
     $("#batchdel").click(function(){
         var checkStatus = table.checkStatus('LAY-app-content-list')
             ,checkData = checkStatus.data; //得到选中的数据
