@@ -102,7 +102,7 @@
     $("#add").click(function () {
         layer.open({
             type: 2
-            ,title: '添加分类'
+            ,title: '添加分类冲突2'
             ,content: '/backstage/dict/categoryForm'
             ,area: ['300px', '200px']
             ,btn: ['确定', '取消']
